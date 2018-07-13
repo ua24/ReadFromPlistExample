@@ -12,6 +12,7 @@
 		4C836A8720F8FFE00011E358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C836A8520F8FFE00011E358 /* Main.storyboard */; };
 		4C836A8920F8FFE10011E358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C836A8820F8FFE10011E358 /* Assets.xcassets */; };
 		4C836A8C20F8FFE10011E358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C836A8A20F8FFE10011E358 /* LaunchScreen.storyboard */; };
+		4C836A9420F900180011E358 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C836A9320F900180011E358 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4C836A8820F8FFE10011E358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C836A8B20F8FFE10011E358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C836A8D20F8FFE10011E358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C836A9320F900180011E358 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Property List.plist"; path = "Resources/Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4C836A8020F8FFE00011E358 /* ReadFromPlist */ = {
 			isa = PBXGroup;
 			children = (
+				4C836A9320F900180011E358 /* Property List.plist */,
 				4C836A8120F8FFE00011E358 /* AppDelegate.swift */,
 				4C836A8320F8FFE00011E358 /* ViewController.swift */,
 				4C836A8520F8FFE00011E358 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				4C836A8C20F8FFE10011E358 /* LaunchScreen.storyboard in Resources */,
 				4C836A8920F8FFE10011E358 /* Assets.xcassets in Resources */,
+				4C836A9420F900180011E358 /* Property List.plist in Resources */,
 				4C836A8720F8FFE00011E358 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
